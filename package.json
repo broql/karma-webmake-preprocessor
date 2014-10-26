@@ -1,0 +1,37 @@
+{
+  "name": "karma-webmake-preprocessor",
+  "version": "0.2.1",
+  "description": "A Karma plugin. Compile webmake on the fly.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {},
+  "keywords": [
+    "karma-plugin",
+    "karma-preprocessor",
+    "webmake"
+  ],
+  "author": "Adrian Makowski",
+  "dependencies": {
+    "webmake": "^0.3.35"
+  },
+  "peerDependencies": {
+    "karma": ">=0.11.14"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-npm": "~0.0.2",
+    "grunt-bump": "~0.0.7",
+    "grunt-auto-release": "~0.0.2"
+  },
+  "contributors": [
+    "Friedel Ziegelmayer <friedel.ziegelmayer@gmail.com>",
+    "Niall Smart <niall@pobox.com>",
+    "Zachary Wright Heller <zheller@gmail.com>",
+    "Anthony Torres <anthony.torres@issinc.com>",
+    "Johannes Würbach <johannes.wuerbach@googlemail.com>",
+    "ehuss <eric@huss.org>"
+  ]
+}
